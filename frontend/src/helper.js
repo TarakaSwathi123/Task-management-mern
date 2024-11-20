@@ -7,7 +7,7 @@ import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 // 	import.meta.env.VITE_BACKEND_BASE_URL || "http://localhost:3000";
 
 console.log(baseURL);
-const baseURL = "http://localhost:3000";
+const baseURL = "https://task-management-mern-kappa.vercel.app";
 
 // Axios instance
 const api = axios.create({
