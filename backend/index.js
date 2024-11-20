@@ -10,7 +10,8 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 const secret = process.env.COOKIE_SECRET;
-const frontendBaseURL = "https://task-management-mern-frontend-three.vercel.app";
+const frontendBaseURL =
+	"https://task-management-mern-frontend-five.vercel.app/login";
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
